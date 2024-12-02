@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Die schweizer Pharmaindustrie</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      'swiss-blue': '#2E74FF',
+                  }
+              }
+          }
+      }
+  </script>
+</head>
+<body class="min-h-screen">
+<!-- Header section with blue background -->
+<header class="bg-swiss-blue p-6">
+  <div class="max-w-7xl mx-auto ml-16">
+    <div class="flex items-center gap-4 mb-8">
+      <!-- Swiss flag icon -->
+      <div class="w-24 h-24 relative flex items-center justify-center flex-shrink-0">
+        <img src="Flag_of_Switzerland.svg.png">
+      </div>
+      <!-- Title -->
+      <h1 class="text-white text-4xl md:text-6xl font-bold leading-tight">
+        Die schweizer<br>Pharmaindustrie
+      </h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="flex flex-wrap gap-2">
+      <button class="bg-blue-300 px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='main.html'">
+        Home
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='geschichte.html'">
+        Geschichte
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='innovationen.html'">
+        Innovationen
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='infos.html'">
+        Infos
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='firmen.html'">
+        Firmen
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='wirtschaft.html'">
+        Wirtschaft
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Main content -->
+<main class="max-w-7xl mx-auto p-6">
+  <div class="flex flex-col md:flex-row items-start gap-8">
+    <!-- Geschichte-->
+    <div class="flex-1">
+      <h2 class="text-swiss-blue text-5xl font-bold mb-4">Geschichte</h2>
+      <p class="text-xl font-semibold">
+        Die Schweizer Pharmaindustrie entstand im 19. Jahrhundert aus der Chemiebranche, die ursprünglich auf
+        Farbstoffproduktion spezialisiert war. Basel spielte hierbei eine zentrale Rolle, da Unternehmen wie Ciba, Geigy
+        und Sandoz wichtige Grundlagen für die pharmazeutische Forschung legten.
+      </p>
+      <button class="bg-blue-500 w-56 h-11 rounded-3xl text-xl text-white mt-4"
+              onclick="window.location.href='geschichte.html'" type="button">Mehr erfahren!
+      </button>
+    </div>
+    <img src="geschichte_pharma.jpg" alt="Pharma History"
+         class="w-full md:w-auto max-w-[350px] h-auto object-cover rounded-lg mt-2">
+  </div>
+
+
+  <!-- Innovationen -->
+  <div class="flex flex-col md:flex-row items-start gap-8 mt-20">
+    <div class="flex-1">
+      <h2 class="text-swiss-blue text-5xl font-bold mb-6">Innovationen</h2>
+      <p class="text-xl font-semibold">
+        Die Schweiz ist bekannt für ihre bahnbrechenden Innovationen im Bereich Pharmazie und Medizintechnik. Roche
+        entwickelte Invirase, den ersten HIV-Proteinase-Hemmer, und Novartis wurde für Letrozol in der Krebstherapie
+        bekannt.
+      </p>
+      <button class="bg-blue-500 w-56 h-11 rounded-3xl text-xl text-white mt-4"
+              onclick="window.location.href='innovationen.html'" type="button">Mehr erfahren!
+      </button>
+    </div>
+    <img src="innovation_pharma.jpg" alt="Pharma History"
+         class="w-full md:w-auto max-w-[350px] h-auto object-cover rounded-lg mt-2">
+  </div>
+
+  <!-- Infos -->
+  <div class="flex flex-col md:flex-row items-start gap-8 mt-20">
+    <div class="flex-1">
+      <h2 class="text-swiss-blue text-5xl font-bold mb-6">Infos</h2>
+      <p class="text-xl font-semibold">
+        Die Pharmaindustrie ist ein zentraler Wirtschaftszweig in der Schweiz. Mit einem Exportanteil von über 30 % und
+        über 70 Milliarden Franken jährlichem Exportvolumen ist sie der größte Beitrag zur Handelsbilanz des Landes.
+      </p>
+      <button class="bg-blue-500 w-56 h-11 rounded-3xl text-xl text-white mt-4"
+              onclick="window.location.href='infos.html'" type="button">Mehr erfahren!
+      </button>
+    </div>
+    <img src="infos.png" alt="Pharma History"
+         class="w-full md:w-auto max-w-[350px] h-auto object-cover rounded-lg mt-2">
+  </div>
+
+
+  <!-- Firmen -->
+  <div class="flex flex-col md:flex-row items-start gap-8 mt-20">
+    <div class="flex-1">
+      <h2 class="text-swiss-blue text-5xl font-bold mb-6">Firmen</h2>
+      <p class="text-xl font-semibold">
+        Die Schweiz beherbergt einige der weltweit führenden Pharmaunternehmen wie Novartis und Roche, die bedeutende
+        Beiträge zur globalen Gesundheitsversorgung leisten.
+      </p>
+      <button class="bg-blue-500 w-56 h-11 rounded-3xl text-xl text-white mt-4"
+              onclick="window.location.href='firmen.html'" type="button">Mehr erfahren!
+      </button>
+    </div>
+    <img src="companies.jpg" alt="Pharma History"
+         class="w-full md:w-auto max-w-[350px] h-auto object-cover rounded-lg mt-2">
+  </div>
+
+  <!-- Wirtschaft -->
+  <div class="flex flex-col md:flex-row items-start gap-8 mt-20">
+    <div class="flex-1">
+      <h2 class="text-swiss-blue text-5xl font-bold mb-6">Wirtschaft</h2>
+      <p class="text-xl font-semibold">
+        Die Pharmaindustrie trägt entscheidend zur Schweizer Wirtschaft bei. Sie ist nicht nur ein wichtiger
+        Arbeitgeber, sondern auch die treibende Kraft hinter dem Exportüberschuss des Landes. Die Branche wächst
+        jährlich, angetrieben durch Innovation und die steigende Nachfrage nach neuen Therapien.
+      </p>
+      <button class="bg-blue-500 w-56 h-11 rounded-3xl text-xl text-white mt-4"
+              onclick="window.location.href='wirtschaft.html'" type="button">Mehr erfahren!
+      </button>
+    </div>
+        <img src="wirtschaft.jpg" alt="Pharma History"
+         class="w-full md:w-auto max-w-[350px] h-auto object-cover rounded-lg mt-2">
+  </div>
+</main>
+</body>
+</html>
+

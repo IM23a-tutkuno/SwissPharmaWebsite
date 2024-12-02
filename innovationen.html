@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Die schweizer Pharmaindustrie</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      'swiss-blue': '#2E74FF',
+                  }
+              }
+          }
+      }
+  </script>
+</head>
+<body class="min-h-screen">
+<!-- Header section with blue background -->
+<header class="bg-swiss-blue p-6">
+  <div class="max-w-7xl mx-auto ml-16">
+    <div class="flex items-center gap-4 mb-8">
+      <!-- Swiss flag icon -->
+      <div class="w-24 h-24 relative flex items-center justify-center flex-shrink-0">
+        <img src="Flag_of_Switzerland.svg.png">
+      </div>
+      <!-- Title -->
+      <h1 class="text-white text-4xl md:text-6xl font-bold leading-tight">
+        Die schweizer<br>Pharmaindustrie
+      </h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="flex flex-wrap gap-2">
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='main.html'">
+        Home
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='geschichte.html'">
+        Geschichte
+      </button>
+      <button class="bg-blue-300 px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='innovationen.html'">
+        Innovationen
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='infos.html'">
+        Infos
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='firmen.html'">
+        Firmen
+      </button>
+      <button class="bg-white px-6 py-2 rounded-full text-swiss-blue font-medium hover:bg-opacity-90 transition-colors"
+              onclick="window.location.href='wirtschaft.html'">
+        Wirtschaft
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Right column - gray placeholder -->
+
+<main class="max-w-7xl mx-auto p-6">
+  <h2 class="text-swiss-blue text-5xl font-bold mb-4">Innovationen</h2>
+</main>
+</body>
+</html>
+
