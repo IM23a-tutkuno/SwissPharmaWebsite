@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Die schweizer Pharmaindustrie</title>
+  <link rel="icon" href="../media/Flag_of_Switzerland.svg.png">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../script.js" defer></script>
   <script>
       tailwind.config = {
           theme: {
@@ -66,7 +68,6 @@
   <div class="container mx-auto w-full">
     <div class="relative wrap overflow-hidden p-4 sm:p-10">
       <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2 hidden sm:block"></div>
-
       <!-- Timeline items -->
       <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
@@ -75,25 +76,37 @@
         </div>
         <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
           <h3 class="mb-3 font-bold text-gray-800 text-xl">Gründung von Geigy in Basel</h3>
-          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-            Geigy beginnt mit der Herstellung von Farbstoffen und legt den Grundstein für die Pharmaindustrie in der Region.
+          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            Im Jahr 1859 begann Geigy, ein Unternehmen aus Basel, mit der Produktion von Farbstoffen.
+            <span class="more hidden">
+               Diese chemischen Produkte hatten zwar zunächst keine medizinische Bedeutung,
+              doch die Expertise in chemischer Synthese legte den Grundstein für den späteren Einstieg in die Pharmaforschung.
+              Die innovative Herangehensweise des Unternehmens machte Basel zu einem frühen Zentrum der Chemieindustrie
+              und bereitete den Weg für die Entstehung der modernen Schweizer Pharmaindustrie.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
-
       <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
         <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
           <h2 class="mx-auto text-white font-semibold text-lg">1884</h2>
         </div>
         <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
-          <h3 class="mb-3 font-bold text-white text-xl">Gründung von Ciba</h3>
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Gründung von Ciba</h3>
           <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            Ciba wird gegründet und spezialisiert sich zunächst auf Farbstoffe, bevor es später in die pharmazeutische Forschung einsteigt.
+            Ciba, ein weiteres Basler Unternehmen, wurde 1884 gegründet und war zunächst ebenfalls auf
+            Farbstoffproduktion spezialisiert.
+            <span class="more hidden">
+              Im Laufe der Zeit verlagerte Ciba seinen Fokus auf die Erforschung pharmazeutischer Anwendungen.
+              Durch die Entwicklung von Medikamenten gegen Infektionskrankheiten etablierte sich das Unternehmen als wichtiger Akteur in der internationalen Pharmaindustrie.
+              Cibas Innovationskraft trug maßgeblich zum Ruf der Schweiz als Forschungsstandort bei.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
-
       <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
         <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
@@ -101,25 +114,38 @@
         </div>
         <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
           <h3 class="mb-3 font-bold text-gray-800 text-xl">Gründung von Sandoz in Basel</h3>
-          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-            Paul Ehrlich entdeckt das erste Chemotherapeutikum
+          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            1895 wurde Sandoz in Basel gegründet. Ursprünglich ein chemisches Unternehmen, entwickelte es später
+            zahlreiche pharmazeutische Produkte.
+            <span class="more hidden">
+              Sandoz war Vorreiter in der Entwicklung von Antibiotika und anderen bahnbrechenden Medikamenten.
+              Jahrzehnte später fusionierte Sandoz mit anderen Firmen und wurde Teil von Novartis,
+              einem der weltweit führenden Pharmaunternehmen.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
-
       <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
         <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
           <h2 class="mx-auto text-white font-semibold text-lg">1909</h2>
         </div>
         <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
-          <h3 class="mb-3 font-bold text-white text-xl">Synthetische Medikamente revolutionieren die Medizin</h3>
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Paul Ehrlich entdeckt das erste Chemotherapeutikum</h3>
           <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            Schweizer Unternehmen entwickeln erste synthetische Medikamente, die international große Anerkennung finden.
+            Der deutsche Wissenschaftler Paul Ehrlich entwickelte 1909 Salvarsan, das erste synthetische Medikament
+            gegen Syphilis
+            <span class="more hidden">
+             Diese Entdeckung markierte den Beginn der modernen Chemotherapie.
+              Schweizer Unternehmen erkannten das Potenzial dieser Technologie und intensivierten ihre Forschung auf dem Gebiet der synthetischen Medikamente.
+              Dieser Meilenstein inspirierte die gesamte Branche und trug dazu bei,
+              die Schweiz zu einem Zentrum pharmazeutischer Innovation zu machen.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
-
       <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
         <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
@@ -128,11 +154,17 @@
         <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
           <h3 class="mb-3 font-bold text-gray-800 text-xl">Synthetische Medikamente revolutionieren die Medizin</h3>
           <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-            Schweizer Unternehmen entwickeln erste synthetische Medikamente, die international große Anerkennung finden.
+            1939 gelang es Schweizer Unternehmen, bahnbrechende synthetische Medikamente zu entwickeln, die die
+            Behandlung von Krankheiten wie Malaria und Tuberkulose revolutionierten.
+            <span class="more hidden">
+              Diese Innovationen retteten Millionen von Menschenleben und trugen zur internationalen Anerkennung der Schweizer Pharmaindustrie bei.
+              Basel wurde zum globalen Zentrum der Pharmaforschung,
+              insbesondere durch die Verknüpfung chemischer Expertise mit medizinischen Anwendungen.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
-
       <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
         <div class="order-1 sm:w-5/12 hidden sm:block"></div>
         <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
@@ -141,8 +173,118 @@
         <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
           <h3 class="mb-3 font-bold text-white text-xl">Entdeckung des LSD durch Albert Hofmann bei Sandoz</h3>
           <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            Der Schweizer Chemiker Albert Hofmann synthetisiert LSD, was später in der psychotherapeutischen Forschung Bedeutung erlangt.
+            Albert Hofmann, ein Chemiker bei Sandoz, synthetisierte 1943 erstmals Lysergsäurediethylamid (LSD).
+            <span class="more hidden">
+              Obwohl es ursprünglich als Kreislaufstimulans gedacht war, wurde LSD später für seine halluzinogenen Eigenschaften bekannt.
+              Es spielte eine wichtige Rolle in der psychotherapeutischen Forschung und trug dazu bei, die Innovationskraft von Sandoz und der Schweizer Pharmaindustrie zu untermauern.
+            </span>
           </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto font-semibold text-lg text-white">1949</h2>
+        </div>
+        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Roche bringt das Antibiotikum Supramycin auf den Markt</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            Roche veröffentlichte 1949 Supramycin, ein neues Antibiotikum, das die Behandlung bakterieller Infektionen
+            deutlich verbesserte.
+            <span class="more hidden">
+              In einer Zeit, in der Infektionskrankheiten weltweit eine der häufigsten Todesursachen waren,
+              stellte Supramycin einen Durchbruch dar. Diese Innovation stärkte die Position von Roche als einer der führenden Pharmaunternehmen im Bereich Antibiotika.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto text-white font-semibold text-lg">1978</h2>
+        </div>
+        <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-white text-xl">Biotechnologie erreicht Basel</h3>
+          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            1978 begann in Basel eine neue Ära der Biotechnologie.
+            <span class="more hidden">
+              Mit der Produktion von Insulin mittels rekombinanter DNA-Technologie
+              etablierten Schweizer Unternehmen eine völlig neue Methode der Arzneimittelherstellung.
+              Diese Technologie beschleunigte die Entwicklung von Medikamenten und machte Basel zu einem globalen Zentrum für Biotech-Forschung.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto font-semibold text-lg text-white">1986</h2>
+        </div>
+        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Lonza startet Biotechnologie-Offensive</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            Lonza, eines der führenden Schweizer Unternehmen, begann 1986 massiv in Biotechnologie zu investieren.
+            <span class="more hidden">
+              Das Unternehmen wurde ein weltweit führender Anbieter von biopharmazeutischen Wirkstoffen und schuf wichtige Grundlagen für die Entwicklung moderner Therapien. Lonzas Innovationskraft hat die Schweiz als globalen Biotech-Standort gestärkt.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto text-white font-semibold text-lg">1996</h2>
+        </div>
+        <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-white text-xl">Fusion von Ciba-Geigy und Sandoz zu Novartis</h3>
+          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            Die Fusion von Ciba-Geigy und Sandoz im Jahr 1996 führte zur Gründung von Novartis, einem der größten
+            Pharmaunternehmen der Welt
+            <span class="more hidden">
+              Mit Sitz in Basel baute Novartis seine Führungsrolle in der Entwicklung neuer Therapien und Medikamente aus.
+              Die Fusion war ein historisches Ereignis
+              für die Schweizer Pharmaindustrie und stärkte die globale Präsenz des Sektors.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto font-semibold text-lg text-white">2020</h2>
+        </div>
+        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Schweiz als globaler Innovationsführer</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            Im Jahr 2020 war die Schweiz weltweit führend bei Patentanmeldungen im pharmazeutischen Bereich.
+            <span class="more hidden">
+              Dieser Erfolg spiegelt die herausragenden Forschungs- und Entwicklungsanstrengungen der Schweizer Pharmaindustrie wider.
+              Schweizer Unternehmen und Institutionen setzen Maßstäbe in der medizinischen Forschung und Technologie.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
+        </div>
+      </div>
+      <div class="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full">
+        <div class="order-1 sm:w-5/12 hidden sm:block"></div>
+        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 sm:w-16 sm:h-8 rounded-full">
+          <h2 class="mx-auto text-white font-semibold text-lg">2021</h2>
+        </div>
+        <div class="order-1 bg-swiss-blue rounded-lg shadow-xl w-full sm:w-5/12 px-4 sm:px-6 py-4">
+          <h3 class="mb-3 font-bold text-white text-xl">mRNA-Technologie für Impfstoffe</h3>
+          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            2021 spielten Schweizer Unternehmen eine Schlüsselrolle bei der Entwicklung von mRNA-Technologien, die in
+            COVID-19-Impfstoffen Anwendung fanden
+            <span class="more hidden">
+              Diese bahnbrechende Technologie ermöglichte die schnelle Entwicklung wirksamer Impfstoffe und zeigte die Stärke der Schweiz als Innovationsstandort im globalen Gesundheitssektor.
+            </span>
+          </p>
+          <button class="read-more-btn">Read more</button>
         </div>
       </div>
 
