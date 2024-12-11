@@ -62,7 +62,7 @@
 <!-- Main content -->
 <main class="max-w-7xl mx-auto p-4 sm:p-6">
   <!-- Geschichte -->
-  <div class="sm:mt-16 md:mt-12 border border-solid p-6 border-swiss-blue rounded-lg">
+  <div class="sm:mt-16 md:mt-12 border border-solid p-6 border-swiss-blue rounded-xl">
     <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
       <div class="flex-1 order-2 md:order-1">
         <h2 class="text-swiss-blue text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Geschichte</h2>
@@ -77,12 +77,12 @@
         </button>
       </div>
       <img src="media/geschichte_pharma.jpg" alt="Pharma History"
-           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-lg md:mt-0 mb-4 order-1 md:order-2">
+           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-xl md:mt-0 mb-4 order-1 md:order-2">
     </div>
   </div>
 
   <!-- Innovationen -->
-  <div class="mt-12 sm:mt-16 md:mt-20 border border-solid p-6 border-swiss-blue rounded-lg">
+  <div class="mt-12 sm:mt-16 md:mt-4 border border-solid p-6 border-swiss-blue rounded-xl">
     <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
       <div class="flex-1 order-2 md:order-1">
         <h2 class="text-swiss-blue text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Innovationen</h2>
@@ -96,12 +96,12 @@
         </button>
       </div>
       <img src="media/innovation_pharma.jpg" alt="Pharma Innovation"
-           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-lg md:mt-0 mb-4 order-1 md:order-2">
+           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-xl md:mt-0 mb-4 order-1 md:order-2">
     </div>
   </div>
 
   <!-- Infos -->
-  <div class="mt-12 sm:mt-16 md:mt-20 border border-solid p-6 border-swiss-blue rounded-lg">
+  <div class="mt-12 sm:mt-16 md:mt-4 border border-solid p-6 border-swiss-blue rounded-xl">
     <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
       <div class="flex-1 order-2 md:order-1">
         <h2 class="text-swiss-blue text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Infos + Statistiken</h2>
@@ -116,12 +116,12 @@
         </button>
       </div>
       <img src="media/infos.png" alt="Pharma Info"
-           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-lg md:mt-0 mb-4 order-1 md:order-2">
+           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-xl md:mt-0 mb-4 order-1 md:order-2">
     </div>
   </div>
 
   <!-- Firmen -->
-  <div class="mt-12 sm:mt-16 md:mt-20 border border-solid p-6 border-swiss-blue rounded-lg">
+  <div class="mt-12 sm:mt-16 md:mt-4 border border-solid p-6 border-swiss-blue rounded-xl">
     <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
       <div class="flex-1 order-2 md:order-1">
         <h2 class="text-swiss-blue text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Firmen</h2>
@@ -134,18 +134,91 @@
         </button>
       </div>
       <img src="media/companies.jpg" alt="Pharma Companies"
-           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-lg md:mt-0 mb-4 order-1 md:order-2">
+           class="w-full md:w-auto max-w-full md:max-w-[350px] h-auto object-cover rounded-xl md:mt-0 mb-4 order-1 md:order-2">
     </div>
   </div>
 
 </main>
-<footer class="bg-swiss-blue h-32 w-3/3">
-  <nav class="text-center p-8 text-lg">
-    <button onclick="window.location.href='html/impressum.html'" class="p-4">Impressum</button>
-    <button onclick="window.location.href='https://github.com/IM23a-tutkuno/SwissPharmaWebsite.git'" class="w-10"><img src="media/Octicons-mark-github.svg"></button>
 
-  </nav>
+
+<footer class="bg-swiss-blue">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="md:flex md:justify-between">
+      <div class="mb-6 md:mb-0">
+
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Swiss Pharma</span>
+
+      </div>
+      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+        <div>
+          <h2 class="mb-6 md text-sm font-semibold uppercase text-white ">Rechtliches</h2>
+          <ul class="text-white font-medium">
+            <li class="mb-4">
+              <a href='formal/disclaimer_swiss_pharma_website.pdf' download='formal/disclaimer_swiss_pharma_website.pdf'
+                 class='hover:text-white duration-300 ease-in-out'>Disclaimer</a>
+            </li>
+            <li class='mb-4'>
+              <a href='formal/datenschutzerklaerung_swiss_pharma_website.pdf' download='formal/datenschutzerklaerung_swiss_pharma_website.pdf'
+                 class='hover:text-white duration-300 ease-in-out'>Datenschutzerklärung</a>
+            </li>
+            <li class=''>
+              <a href='formal/formal_quellen_swiss_pharma_website.pdf' download='formal/formal_quellen_swiss_pharma_website.pdf'
+                 class='hover:text-white duration-300 ease-in-out'>Quellen</a>
+            </li>
+          </ul>
+
+        </div>
+        <div>
+          <h2 class="mb-6 text-sm font-semibold  uppercase  text-white">Resources</h2>
+          <ul class=" text-white font-medium">
+            <li class="mb-4">
+              <a href="https://tailwindcss.com/" class=" hover:text-white duration-300 ease-in-out">Tailwind CSS</a>
+            </li>
+            <li class="mb-4">
+              <a href="https://www.material-tailwind.com" class=" hover:text-white duration-300 ease-in-out">Material-Tailwind</a>
+            </li>
+            <li class="mb-4">
+              <a href="https://flowbite.com/" class=" hover:text-white duration-300 ease-in-out">Flowbite</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Find us</h2>
+          <ul class=" text-white font-medium">
+            <li class="mb-4">
+              <a href="https://github.com/IM23a-tutkuno/SwissPharmaWebsite" class=" hover:text-white duration-300 ease-in-out">Github</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="mb-6 md text-sm font-semibold uppercase text-white ">The Team</h2>
+          <ul class="text-white font-medium">
+            <li class="mb-4">
+              <a class='hover:text-white duration-300 ease-in-out' href='https://github.com/IM23a-tutkuno'>Ozan
+                Tutkun - Developer</a>
+            </li>
+
+            <li class='mb-4'>
+              <a href='https://github.com/IM23a-karimik' class='hover:text-white duration-300 ease-in-out'>Kian Armando Karimi -
+                Writing</a>
+            </li>
+            <li class=''>
+              <a href='https://github.com/IM23a-hajnikm' class='hover:text-white duration-300 ease-in-out'>Martin Hajnik -
+                Research + Writing</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8"/>
+    <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-white sm:text-center">© 2023 MKO All Rights Reserved.
+          </span>
+    </div>
+  </div>
 </footer>
+
 </body>
 </html>
 

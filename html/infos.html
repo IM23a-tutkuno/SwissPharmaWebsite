@@ -69,32 +69,25 @@
 
 
     <!-- Statistik Export -->
-    <div class="relative flex flex-row rounded-xl border-solid border border-swiss-blue bg-clip-border text-gray-700 shadow-md p-4 h-100 w-full h-2/3 mb-4">
-      <div class="relative mx-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center w-256 h-full">
-
-        <div>
-          <div class="text-4xl mb-4">
-            Pharmaexporte
-          </div>
-          <div class="text-md w-2/3">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-            clita
-            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-            consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-            takimata
-            sanctus est Lorem ipsum dolor sit amet.
+    <div class="relative flex flex-row rounded-xl border-solid border border-swiss-blue bg-clip-border text-swiss-blue shadow-md p-6 h-100 w-full h-2/3 mb-6">
+      <div class="relative mx-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center w-256">
+        <div class="md:w-1/2">
+          <div class="text-4xl mb-4 text-swiss-blue font-bold">Pharmaexporte</div>
+          <div class="text-black sm:text-lg font-medium">
+            Als wichtiger Motor der Schweizer Exportwirtschaft fungiert die Pharmabranche. So betrug deren Anteil an den
+            gesamten Exporten des Landes im Jahr 2023 rund 38 % und übertraf damit alle anderen Branchen deutlich. Große
+            Nachfrage herrschte hierbei vor allem nach innovativen Arzneimitteln, Impfstoffen und Krebstherapeutika.
+            Dies verdeutlicht die herausragende Stellung der schweizerischen Pharmaunternehmen auf dem Weltmarkt, und
+            unterstreicht gleichfalls den Stellenwert, welchen sie für die weltweite Gesundheitsversorgung einnehmen.
             <div class="text-sm mt-4"> Quelle: <a
                     href="https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.31867475.html"
                     class="text-swiss-blue underline">https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.31867475.html</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="py-6 grid place-items-center px-2">
-        <div class="p-4 w-full mr-16" id="pie-chart"></div>
+        <div class="md:w-1/2">
+          <div id="pie-chart" class="w-full h-64"></div>
+        </div>
       </div>
     </div>
 
@@ -130,15 +123,15 @@
   </div>
 
 
-  <!-- Statistik Export -->
-  <div class="relative flex flex-row rounded-xl border-solid border border-swiss-blue bg-clip-border text-gray-700 shadow-md p-4 h-100 w-full h-2/3 mb-4">
+  <!-- Ausgaben Stat -->
+  <div class="relative flex flex-row rounded-xl border-solid border border-swiss-blue bg-clip-border text-gray-700 shadow-md p-6 h-100 w-full h-2/3 mb-6">
     <div class="relative mx-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center w-256">
 
-      <div class="w-2/3">
-        <div class="text-4xl mb-4">
-          Forschungsausgaben von Novartis und Roche
+      <div class="md:w-1/2">
+        <div class="text-swiss-blue text-4xl font-bold mb-4">
+          Forschungs- <br>ausgaben von Novartis und Roche
         </div>
-        <div class="">
+        <div class="text-black sm:text-lg font-medium">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
           clita
@@ -148,10 +141,10 @@
           voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata
           sanctus est Lorem ipsum dolor sit amet.
-          <div class="text-sm mt-4"> Quellen: <a
+          <div class="text-sm mt-16"> Quellen: <a
                   href="https://www.roche.com/investors/annualreport23"
                   class="text-swiss-blue underline">https://www.roche.com/investors/annualreport23</a><br>
-            <a class="text-swiss-blue underline"href="https://www.novartis.com/ch-de/investoren/geschaeftsergebnisse">https://www.novartis.com/ch-de/investoren/geschaeftsergebnisse</a>
+            <a class="text-swiss-blue underline" href="https://www.novartis.com/ch-de/investoren/geschaeftsergebnisse">https://www.novartis.com/ch-de/investoren/geschaeftsergebnisse</a>
           </div>
         </div>
       </div>
@@ -164,7 +157,7 @@
             </p>
           </div>
         </div>
-        <div class="pt-6 px-2 pb-0">
+        <div class="pt-6 px-2 pb-0 sm:items-center">
           <div id="line-chart"></div>
         </div>
       </div>
@@ -227,17 +220,17 @@
 
       <!-- Text Section -->
       <div class="flex-1 p-4">
-        <div class="text-4xl mb-4">
-          Exportdestinationen
+        <div class="text-swiss-blue text-4xl font-bold mb-4">
+          Export<br>Destinationen
         </div>
-        <div>
+        <div class="text-black sm:text-lg font-medium">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
           clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
           consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata sanctus est Lorem ipsum dolor sit amet.
-          <div class="text-sm mt-4">
+          <div class="text-sm mt-4 h-256">
             Quelle:
             <a href="https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.31888155.html"
                class="text-swiss-blue underline">

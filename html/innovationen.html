@@ -6,6 +6,7 @@
   <title>Die schweizer Pharmaindustrie</title>
   <link rel="icon" href="../media/Flag_of_Switzerland.svg.png">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../script.js" defer></script>
   <script>
       tailwind.config = {
           theme: {
@@ -61,136 +62,112 @@
 
 <!-- Right column - gray placeholder -->
 
-<main class="max-w-7xl mx-auto p-4 sm:p-6">
-  <h2 class="text-swiss-blue text-5xl font-bold mb-4">Innovationen</h2>
-  <div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-    <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
-      <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
-        <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="h-6 w-6"
-        >
-          <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3"
-          ></path>
-        </svg>
-      </div>
-      <div>
-        <h6 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
-          Line Chart
-        </h6>
-        <p class="block max-w-sm font-sans text-sm font-normal leading-normal text-gray-700 antialiased">
-          Visualize your data in a simple way using the
-          @material-tailwind/html chart plugin.
-        </p>
+<main class="flex-grow max-w-7xl mx-auto p-4 sm:p-6">
+  <h2 class="text-swiss-blue text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Innovationen</h2>
+  <div class="space-y-8">
+    <div class="border border-solid border-swiss-blue rounded-xl p-4 sm:p-6 text-swiss-blue font-bold">
+      <h3 class="text-2xl sm:text-3xl md:text-4xl mb-4">Krebstherapie</h3>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex-grow">
+          <p class="text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+            Das Unternehmen Roche arbeitet in dem Bereich der Krebstherapie mit unerschütterlichem Einsatz und nimmt
+            langjährige Investitionen in Kauf. Aus diesem Grund ist es ein globaler Führer hinsichtlich der
+            Krebsforschung
+            und wiederum in der Lage, den Krebs anzugreifen, wohingegen die Konkurrenz noch meilenweit von dieser
+            verheissungsvollen Region entfernt zu sein scheint. Eine der Revolutionen des Unternehmens stellt das
+            Medikament,
+            nämlich Herceptin, dar, der sich auf die HER-2 positive Brustkrebsart spezialisiert: HER-2, ein Protein, das
+            bei
+            bestimmten Krebsarten in grossen Mengen vorkommt und uns befähigt, den Krebs zu bewältigen, regt das
+            Wachstum des
+            Tumors an. Der Antikörper Herceptin greift in das Protein der HER-2 ein, behindert dessen Wirkung und ergo
+            darüber
+            das Tumorwachstum, während es den gesunden Strukturen so gut wie unversehrt bleibt.
+            <span class="more hidden mt-4 text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+            Die zielgerichtete Therapie hat die Behandlung bei Krebs revolutioniert und stellt bis auf den heutigen Tag
+            eine
+            der am weitesten verbreiteten Anwendungen dar. Eine weitere unerwartete Innovation war Tecentriq, der unter
+            den
+            PD1-Inhibitoren vertreten ist, und zwar jenem Bereich, der das Immunsystem hinterrücks flankierend die
+            Tumore
+            beseitigen lässt. Das Produkt wird gegebenenfalls im Verbund mit Chemotherapie und mit anderen Antikörpern
+            im
+            Zusammenhang mit verschiedenen Krebsarten, d. h. insbesondere Lungen- und Blasenkrebs, eingesetzt. Diese
+            Immuntherapien haben die Überlebensraten bei Krebserkrankungen laufend erhöht und aus dem Übrigen eine neue
+            Ära in
+            der Krebsbehandlung eingeläutet, der die absolute und überaus beharrliche Hasserscheinung des Tumors auf die
+            Physis folgen wird. Roche wird weiterhin Gelder in die Forschung von neuartigen Immuntherapien und
+            Kombinationsbehandlungen investieren, um die Behandlungsraten weiter zu steigern. In diesem Punkt scheinen
+            klinische Tests und umfangreiche Datenanalysen vielversprechende Resultate zu erbringen, die sogar im
+            Anstand
+            sind, die Krebstherapie ein weiteres Mal zu revolutionieren.
+          </span>
+          </p>
+
+          <button class="read-more-btn underline mt-4">Read more</button>
+        </div>
+        <img src="../media/Tecentric.png" alt="Tecentric"
+             class="w-full md:w-1/3 h-auto object-cover border border-solid border-swiss-blue rounded-xl">
       </div>
     </div>
-    <div class="pt-6 px-2 pb-0">
-      <div id="line-chart"></div>
+
+    <div class="border border-solid border-swiss-blue rounded-xl p-4 sm:p-6 text-swiss-blue font-bold">
+      <h3 class="text-2xl sm:text-3xl md:text-4xl mb-4">Gentherapie</h3>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex-grow">
+          <p class="text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+            Novartis stellte mit der Entwicklung von Zolgensma, einer Gentherapie zur Behandlung der spinalen
+            Muskelatrophie (SMA), einen neuen Meilenstein dar. SMA, eine seltene erbliche Krankheit, die durch einen
+            Mangel oder Defekt des genetischen SMN1-Gens ausgelöst wird und sich in Muskelschwäche und schweren
+            motorischen Funktionsstörungen äussert. Zolgensma ermöglicht die direkte Bereitstellung einer
+            funktionierenden
+            Kopie dieses Gens in den Zellen des Patienten und behebt damit die eigentliche Ursache der Pathologie. Durch
+            eine einmalige intravenöse Infusion von Zolgensma hat sich die Beweglichkeit bei vielen betroffenen Babys
+            und
+            Kleinkindern bedeutsam verbessern lassen und erwies sich als äusserst effektiv.
+            <span class="more hidden mt-4 text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+            Die Therapie geniesst den Ruf, zu den kostspieligsten Therapien der Welt zu gehören, was wiederum erhebliche
+            Diskussionen darüber ausgelöst hat, ob solche Behandlungen gegenwärtig und in Zukunft finanzierbar und jedem
+            zugänglich sein sollten. Dennoch bietet Zolgensma eindrucksvolle Beispiele für die innovative Wichtigkeit
+            der
+            Gentherapie in dem Zusammenhang seltener Krankheiten. Zur Ergänzung der kleinen Menge an verfügbaren
+            Gentherapien
+            andrerseits forscht Novartis gegenwärtig an weiteren Genen, denen man solche Genbehandlungen entgegenstellen
+            könnte und so weiterhin zu einer ansatzweise vollständige Genesung seltener Krankheiten beizutragen.
+          </span>
+          </p>
+          <button class="read-more-btn underline mt-4">Read more</button>
+        </div>
+        <img src="../media/SMA.jpg" alt="SMA"
+             class="w-full md:w-1/3 h-auto object-cover border border-solid border-swiss-blue rounded-xl">
+      </div>
     </div>
+
+    <div class="border border-solid border-swiss-blue rounded-xl p-4 sm:p-6 text-swiss-blue font-bold">
+      <h3 class="text-2xl sm:text-3xl md:text-4xl mb-4">mRNA-Forschung und Impfstofftechnologie</h3>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex-grow">
+          <p class="text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+            Die mRNA-Technologie erweist sich als transformative Plattform für die Herstellung von Medikamenten und
+            Impfstoffen. Dabei haben Schweizer Unternehmen und Forschungseinrichtungen einen grundlegenden Beitrag zur
+            Weiterentwicklung dieser Technologie geleistet. Ein besonderes Augenmerk gilt dabei der Entwicklung von
+            COVID-19-Impfstoffen, wie sie von Pfizer-BioNTech und Moderna entwickelt wurden, die auf der Verwendung von
+            mRNA basieren, um dem Immunsystem das Spike-Protein des SARS-Co-V-2-Virus vorzustellen und eine
+            Immunreaktion anstoßen. Zusätzlich wird die mRNA-Technologie mit einigen Forschungs-Schwerpunkten verfolgt,
+            darunter Impfstoffe gegen Malaria oder HIV, aber auch im therapeutischen Bereich bei der Onkologie.
+            <span class="more hidden mt-4 text-base sm:text-lg font-medium leading-snug tracking-wide text-black text-opacity-100">
+
+              Diese hochvariable Technologie hat den Vorteil, dass sie sich in kurzer Zeit anpassen lässt, dies ist entscheidend bei neuen Virus-Varianten oder auch bei individualisierte Krebstherapien. Die industrielle Herstellung von mRNA-Impfstoffen und Forschung sowie Produktion laufen parallel und werden auf globaler Ebene durch Stoffwechselunternehmen wie Lonza AG vorangetrieben.
+          </span>
+          </p>
+          <button class="read-more-btn underline mt-4">Read more</button>
+        </div>
+        <img src="../media/Covid.png" alt="SMA"
+             class="w-full md:w-1/3 h-auto object-cover border border-solid border-swiss-blue rounded-xl">
+      </div>
+    </div>
+
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-  <script>
-      const chartConfig = {
-          series: [
-              {
-                  name: "Sales",
-                  data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
-              },
-          ],
-          chart: {
-              type: "line",
-              height: 240,
-              toolbar: {
-                  show: false,
-              },
-          },
-          title: {
-              show: "",
-          },
-          dataLabels: {
-              enabled: false,
-          },
-          colors: ["#020617"],
-          stroke: {
-              lineCap: "round",
-              curve: "smooth",
-          },
-          markers: {
-              size: 0,
-          },
-          xaxis: {
-              axisTicks: {
-                  show: false,
-              },
-              axisBorder: {
-                  show: false,
-              },
-              labels: {
-                  style: {
-                      colors: "#616161",
-                      fontSize: "12px",
-                      fontFamily: "inherit",
-                      fontWeight: 400,
-                  },
-              },
-              categories: [
-                  "Apr",
-                  "May",
-                  "Jun",
-                  "Jul",
-                  "Aug",
-                  "Sep",
-                  "Oct",
-                  "Nov",
-                  "Dec",
-              ],
-          },
-          yaxis: {
-              labels: {
-                  style: {
-                      colors: "#616161",
-                      fontSize: "12px",
-                      fontFamily: "inherit",
-                      fontWeight: 400,
-                  },
-              },
-          },
-          grid: {
-              show: true,
-              borderColor: "#dddddd",
-              strokeDashArray: 5,
-              xaxis: {
-                  lines: {
-                      show: true,
-                  },
-              },
-              padding: {
-                  top: 5,
-                  right: 20,
-              },
-          },
-          fill: {
-              opacity: 0.8,
-          },
-          tooltip: {
-              theme: "dark",
-          },
-      };
-
-      const chart = new ApexCharts(document.querySelector("#chart"), chartConfig);
-
-      chart.render();
-  </script>
 </main>
 </body>
 </html>
-
