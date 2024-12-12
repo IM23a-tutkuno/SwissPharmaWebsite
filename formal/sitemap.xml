@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://swiss-pharma.info/</loc>
+  <lastmod>2024-12-12T08:51:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/index.html</loc>
+  <lastmod>2024-12-12T08:51:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/html/geschichte.html</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/html/innovationen.html</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/html/infos.html</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/html/firmen.html</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/formal/disclaimer_swiss_pharma_website.pdf</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/formal/datenschutzerklaerung_swiss_pharma_website.pdf</loc>
+  <lastmod>2024-12-12T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-pharma.info/formal/formal_quellen_swiss_pharma_website.pdf</loc>
+  <lastmod>2024-12-12T08:51:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
